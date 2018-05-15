@@ -16,6 +16,7 @@ services:
       SENTRY_MEMCACHED_HOST: memcached
       SENTRY_REDIS_HOST: redis
       SENTRY_POSTGRES_HOST: postgres
+      SENTRY_USE_SSL: 1
     volumes:
       - ./data/sentry:/var/lib/sentry/files
 
