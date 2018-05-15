@@ -1,1 +1,2 @@
-FROM sentry:8.22-onbuild
+FROM sentry:8
+COPY config.yml /etc/sentry/
