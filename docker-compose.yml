@@ -43,7 +43,7 @@ services:
       - postgres
       - memcached
     ports:
-      - '9000:9000'
+      - '19000:9000'
 
   cron:
     restart: unless-stopped
